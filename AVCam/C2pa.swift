@@ -36,7 +36,11 @@ class C2pa {
             key = (try? String(contentsOf: url, encoding: .utf8)) ?? ""
         }
 
-        signerInfo = SignerInfo(algorithm: .es256, certificatePEM: cert, privateKeyPEM: key)
+        signerInfo = SignerInfo(
+            algorithm: .es256,
+            certificatePEM: cert,
+            privateKeyPEM: key,
+            tsaURL: "http://timestamp.digicert.com")
     }
 
 
