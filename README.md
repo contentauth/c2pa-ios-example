@@ -4,11 +4,11 @@
 
 This is an iOS example app "c2pa-cam" based on Apple's Sample Code [AVCam](https://developer.apple.com/documentation/avfoundation/avcam-building-a-camera-app)
 
-It was augmented to demonstrate the usage of [official C2PA iOS SDK](https://github.com/contentauth/c2pa-ios/) to make an iOS application into a [C2PA Claim Generator](https://spec.c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html#_technical_overview). 
+It was augmented to demonstrate the usage of the [C2PA iOS library](https://github.com/contentauth/c2pa-ios/) to make an iOS application into a [C2PA claim generator](https://spec.c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html#_technical_overview). 
 
 <div style={{display: 'none'}}>
 
-For more information about C2PA and the mobile SDKS, see the [C2PA Open source SDK documentation site](https://opensource.contentauthenticity.org/docs/introduction).
+For more information about C2PA and the mobile libraries, see the [C2PA open-source SDK documentation site](https://opensource.contentauthenticity.org/docs/introduction).
 
 </div>
 
