@@ -14,19 +14,21 @@ For more information about C2PA and the mobile libraries, see the [C2PA open-sou
 
 When a image or video is captured by the camera, the sample app will create, embed, and cryptographically sign a minimal C2PA v2.2+ manifest stating the creation provenance of the asset.
 
-NOTE: This sample currently uses invalid test keys.
+> [!NOTE]
+> This sample currently uses invalid test keys.
 
 ## Validation
 
 Validate your signed images and videos with the command line [c2patool](https://github.com/contentauth/c2patool) or use an online validator such as [ACA Inspect](https://inspect.cr) or [ProofCheck](https://check.proofmode.org).
 
-Note: If you are using a test certificate, some tools will display "untrusted" or "unknown" for the claim signer identity.
+> [!NOTE]
+> If you are using a test certificate, some tools will display "untrusted" or "unknown" for the claim signer identity.
 
 ## Author, License
 
 The modifications to [Apple's AvCam sample](https://developer.apple.com/documentation/avfoundation/avcam-building-a-camera-app) were authored by Benjamin Erhart, [Die Netzarchitekten e.U.](https://die.netzarchitekten.com) for [Guardian Project](https://guardianproject.info) and [Proofmode](https://proofmode.org).
 
-Licensed under [MIT](LICENSE-MIT) and [Apache](LICENSE-APACHE) licenses.
+Licensed under [MIT](https://github.com/contentauth/c2pa-ios-example/blob/main/LICENSE-MIT) and [Apache](https://github.com/contentauth/c2pa-ios-example/blob/main/LICENSE-APACHE) licenses.
 
-Some components may be licensed under the [Apple license](LICENSE.txt); check the license terms for each file for details.
+Some components may be licensed under the [Apple license](https://github.com/contentauth/c2pa-ios-example/blob/main/LICENSE.txt); check the license terms for each file for details.
 
